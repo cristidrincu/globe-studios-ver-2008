@@ -1,0 +1,915 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:18px;
+	background:url(../img/back_landing_page/back_landing_page.jpg) repeat;
+
+}
+
+.clearFloats {
+	clear:both;
+}
+
+.parentBox {
+	width:99%;
+	height:100%;
+	position:absolute;
+	z-index:3;
+}
+
+.containerBackground {
+	width:99%;
+	height:599px;
+	display:block;
+	position:absolute;
+	z-index:1;
+}
+
+	.wrapperPicBackground {
+		width:971px;
+		height:599px;
+		margin-left:auto;
+		margin-right:auto;
+		background:url(../img/back_header_top/back_header_top.png) no-repeat;
+	}
+
+span {
+	font-size:20px;
+	font-weight:bold;
+	line-height:25px;
+}
+
+.containerMainLogo {
+	width:99%;
+	display:block;
+	height:100px;
+	position:absolute;
+	z-index:4;
+}
+	.containerLogo {
+		width:971px;
+		height:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.wrapperMenuLanguages {
+		width:120px;
+		float:right;
+		margin-right:30px;
+		padding-top:10px;
+	}
+	
+		.containerUlLanguages {
+			width:inherit;
+			margin-bottom:10px;
+		}
+	
+		.containerUlLanguages ul {
+			margin:0;
+			padding:0;
+			display:inline;
+		}
+		
+			.containerUlLanguages ul li {
+				display:inline;
+				margin-left:3px;
+			}
+			
+				
+			
+				.containerUlLanguages ul li a {
+					color:#9a9a9a;
+					text-decoration:none;
+					position:relative;
+					top:-2px;
+					margin-bottom:10px;
+				}
+				
+				.containerUlLanguages ul li a:hover {
+					text-decoration:underline;
+				}
+				
+
+.mainBox {
+	width:971px;
+	margin-left:auto;
+	margin-right:auto;
+	/*position:absolute;
+	z-index:3;*/
+	position:relative;
+	top:240px;
+	/*margin-bottom:-500px;*/
+	/*background:url(../img/back_header_top/back_header_top.png) no-repeat;*/
+}
+				
+		.containerMenu {
+			width:645px;
+			float:right;
+			/*position:relative;
+			top:-355px;*/
+		}
+		
+		.containerTextIntroGlobe {
+			width:inherit;
+			height:80px;
+			background:url(../img/back_header_transparent/back_header_transp.png) no-repeat;
+			/*margin-bottom:-80px;
+			margin-top:15px;*/
+		}
+		
+			h3.overTransparency {
+				width:inherit !important;
+				width:100%;
+				margin:0;
+				padding:0;
+				padding-top:0;
+				*padding-top:15px;
+				padding-bottom:0;
+				*padding-bottom:25px;
+				font-size:40px;
+				position:relative;
+				top:50px;
+				*top:80px;
+				/*color:#a7a7a7;*/
+				color:#fff;
+				padding-left:20px;
+				
+			}
+			
+			.containerTextIntroGlobe p {
+				margin:0;
+				padding:0;
+				/*color:#a7a7a7;*/
+				color:#fff;
+				margin-bottom:20px;
+				/*padding-top:40px;*/
+			}
+			
+	.containerElementePachete {
+		width:inherit;
+		margin-top:20px;
+	}
+	
+		.wrapperCeVaPutemOferi {
+			width:170px;
+			height:41px;
+			
+			margin-left:25px;
+			background:url(../img/header_ce_va_oferim/header_ce_oferim.png) no-repeat;
+		}
+		
+			.wrapperCeVaPutemOferi h3 {
+				margin:0;
+				padding:0;
+				font-size:16px;
+				color:#fff;
+				padding-top:10px;
+				padding-left:20px;
+			}
+			
+			
+			.wrapperPacheteWeb {
+				width:inherit;
+				height:304px;
+				background:url(../img/back_pachete/back_pachete_web.png) no-repeat;
+			}
+			
+			.containerInfoPachetWeb {
+				width:310px;
+				float:left;
+				margin-left:5px;
+			}
+			
+				.containerInfoPachetWeb h3 {
+					margin:0;
+					padding:0;
+					color:#fff;
+					padding-top:20px;
+					padding-left:45px;
+				}
+				
+				.containerInfoPachetWeb p {
+					margin:0;
+					padding:0;
+					color:#fff;
+					padding-left:45px;
+					padding-right:20px;
+					padding-top:25px;
+					padding-bottom:25px;
+				}
+				
+				
+				
+				.containerLinksExemplePachete {
+					width:inherit;
+				}
+				
+					.wrapper1LinkExemplePachete {
+						width:310px;
+						float:left;
+						margin-right:10px;
+					}
+					
+						.wrapper1LinkExemplePachete a {
+							color:#fff;
+							text-decoration:none;
+							float:right;
+							margin-right:5px;
+						}
+				
+						.wrapper1LinkExemplePachete a:hover {
+							text-decoration:underline;
+						}
+						
+				.containerVeziToatePachetele {
+					width:304px;
+					height:30px;
+					float:right;
+					background:url(../img/back_vezi_toate_pachetele/back_vezi_toate_pachetele.png) no-repeat;
+					margin-right:12px;
+				}
+				
+					.containerVeziToatePachetele ul {
+						margin:0;
+						padding:0;
+						display:inline;
+					}
+					
+						.containerVeziToatePachetele ul li {
+							display:inline;
+						}
+						
+							.containerVeziToatePachetele ul li img {
+								position:relative;
+								top:8px;
+								margin-left:10px;
+							}
+							
+							.containerVeziToatePachetele ul li a {
+								text-decoration:none;
+								color:#fff;
+								position:relative;
+								top:5px;
+								margin-left:3px;
+							}
+							
+		.headerAlteServicii {
+			width:inherit;
+			margin-top:35px;
+			position:relative;
+			padding-left:20px;
+			padding-bottom:5px;
+		}
+		
+			.headerAlteServicii h3 {
+				margin:0;
+				padding:0;
+				color:#fff;
+				font-size:12px;
+			}
+			
+			.headerAlteServicii h3 a {
+				color:#fff;
+				text-decoration:none;
+			}
+			
+			.headerAlteServicii h3 a:hover {
+				text-decoration:underline;
+			}
+			
+		.headerInsiruireServicii {
+			width:inherit;
+			margin-top:5px;
+			position:relative;
+		}
+		
+			.headerInsiruireServicii h3 {
+				width:850px;
+				margin:0;
+				padding:0;
+				color:#fff;
+				font-size:25px;
+				background:#500060;
+				padding-top:7px;
+				padding-bottom:10px;
+				padding-left:20px;
+			}
+			
+		
+		.headerProduseAlteServicii {
+			width:inherit;
+			margin-top:20px;
+		}
+		
+			.headerProduseAlteServicii h3 {
+				color:#fff;
+				padding-left:20px;
+			}
+			
+		.containerTextDescriereAltServiciu {
+			width:inherit;
+			height:100%;
+			padding:8px 8px;
+			background:#171717;
+			/*filter:alpha(opacity=70); 
+			-moz-opacity: 0.7; 
+			opacity: 0.7;*/
+		}
+		
+			.containerTextDescriereAltServiciu p {
+				margin:0;
+				padding:0;
+				color:#fff;
+				padding-bottom:10px;
+				padding-left:15px;
+				padding-right:15px;
+			}
+			
+			.containerTextDescriereAltServiciu p a {
+				color:#fff;
+				text-decoration:none;
+			}
+			
+			.containerTextDescriereAltServiciu p a:hover {
+				text-decoration:underline;
+			}
+			
+			.containerTextDescriereAltServiciu img {
+				float:left;
+				margin-left:15px;
+			}
+			
+			
+			
+		.backgroundSmokeFooter {
+			width:inherit;
+			height:239px;
+			background:url(../img/back_smoke_footer/back_smoke_footer_2.png) no-repeat;
+			/*margin-bottom:-150px;*/
+			margin-top:-20px;
+		}
+		
+		.container2ColumnsContactInformation {
+			width:inherit;
+		}
+		
+			.containerNewsletter {
+				width:440px;
+				float:left;
+				padding-top:50px;
+				margin-left:125px;
+			}
+			
+				.containerNewsletter h3 {
+					width:250px;
+					margin:0;
+					padding:0;
+					color:#a3a1a1;
+					font-size:13px;
+					background:#262525;
+					padding:3px 10px;
+				}
+				
+			.containerDescriereNewsletter {
+				width:inherit;
+				margin-top:10px;
+			}
+			
+				.containerDescriereNewsletter p {
+					margin:0;
+					padding:0;
+					color:#a3a1a1;
+					background:#262525;
+					padding:3px 10px;
+				}
+				
+				
+			.containerInfoContact {
+				width:350px;
+				margin-top:-30px;
+				/*margin-right:125px;*/
+				margin-right:auto;
+				margin-left:auto;
+			}
+			
+				.containerInfoContact h3 {
+					margin:0;
+					padding:0;
+					color:#a3a1a1;
+					font-size:13px;
+					background:#262525;
+					padding:3px 10px;
+					
+				}
+				
+				.containerInfoContact p {
+					margin:0;
+					padding:0;
+					margin-top:5px;
+					color:#a3a1a1;
+					font-size:12px;
+					background:#262525;
+					padding:3px 10px;
+				}
+				
+		
+					
+					
+					
+/*CSS code for despre_noi.html*/
+
+	.containerPicTeam {
+		width:310px;
+		float:left;
+		margin-right:10px;
+		margin-bottom:100px;
+		
+	}
+	
+	h3.denumireSpecializareTeam {
+		margin:0;
+		padding:0;
+		font-size:15px;
+		background:none;
+		margin-bottom:10px;
+		color:#fff;
+		padding-top:25px;
+		padding-left:30px;
+	}
+	
+	p.paragraphDescriereMembruTeam {
+		margin:0;
+		padding:0;
+		color:#fff;
+		padding-left:30px;
+		padding-right:20px;
+	}
+	
+	
+	.wrapperContainersPicTeam {
+		width:inherit;
+		position:relative;
+		top:20px;
+		margin-bottom:20px;
+		*margin-bottom:100px;
+	}
+
+/*CSS code for servicii.html*/
+
+	.containerMainPacheteWeb, .containerMainPrezentarePortofoliu {
+		width:inherit;
+		height:100%;
+		margin-top:30px;
+		margin-bottom:-20px;
+	}
+	
+	.containerMainPrezentarePortofoliu {
+		width:inherit;
+		height:100%;
+		margin-top:-30px;
+		*margin-top:-30px;
+		/*margin-bottom:-20px;*/
+	}
+	
+	.containerMainIndexUltimeleProiecte {
+		width:inherit;
+		height:100%;
+		/*margin-top:10px;*/
+		margin-bottom:-20px;
+		/*margin-top:-30px;*/
+		position:relative;
+		top:0;
+	}
+	
+		.wrapperTopPacheteWeb, .wrapperTopNumeTeam, .wrapperTopDespreNoiIndex {
+			width:inherit;
+			height:70px;
+			background-color:#0c0c0c;
+			position:relative;
+			filter:alpha(opacity=80); 
+			-moz-opacity: 0.8; 
+			opacity: 0.8;
+		}
+		
+			.containerTitlePachet, .containerTitleMembruEchipa {
+				width:323px;
+				float:left;
+			}
+			
+			.containerTitlePachet h3 {
+				margin:0;
+				padding:0;
+				color:#fff;
+				padding-left:15px;
+				padding-top:35px;
+			}
+	
+		.wrapperMiddlePacheteWeb, .wrapperMiddleNumeTeam, .wrapperMiddleDespreNoiIndex, .wrapperPicsPortofoliu {
+			width:inherit;
+			height:100%;
+			background-color:#0c0c0c;
+			/*position:relative;*/
+			filter:alpha(opacity=80); 
+			-moz-opacity: 0.8; 
+			opacity: 0.8;
+		}
+		
+		.wrapperPicsPortofoliu {
+			filter:alpha(opacity=100); 
+			-moz-opacity: 100; 
+			opacity: 100;
+			margin-top:55px;
+			padding-bottom:10px;
+		}
+		
+		.wrapperMiddleDespreNoiIndex p {
+			margin:0;
+			padding:0;
+			color:#fff;
+			padding-left:30px;
+			padding-right:30px;
+		}
+		
+		.wrapperMiddleDespreNoiIndex p a {
+			text-decoration:none;
+			color:#fff;
+		}
+		
+		.wrapperMiddleDespreNoiIndex p a:hover {
+			text-decoration:underline;
+		}
+		
+			.infoPachet, .containerDescriereMembruEchipa {
+				width:323px;
+				float:left;
+			}
+			
+				.infoPachet ul {
+					margin:0;
+					padding:0;
+					color:#fff;
+					list-style:none;
+					padding-left:15px;
+					font-weight:bold;
+					
+				}
+			
+				.infoPachet p {
+					margin:0;
+					padding:0;
+					color:#fff;
+					padding-top:10px;
+					padding-left:15px;
+					padding-right:20px;
+				}
+				
+				
+		
+		.wrapperBottomPacheteWeb, .wrapperBottomNumeTeam, .wrapperBottomDespreNoiIndex {
+			width:inherit;
+			height:55px;
+			background-color:#0c0c0c;
+			/*position:relative;*/
+			filter:alpha(opacity=80); 
+			-moz-opacity: 0.8; 
+			opacity: 0.8;
+			padding-bottom:50px;
+		}
+		
+		.wrapperBottomDespreNoiIndex {
+			padding-bottom:0;
+		}
+		
+		/*.wrapperBottomNumeTeam {
+			margin-bottom:30px;
+		}*/
+		
+			.containerDorescAcestPachet, .containerContacteazaMembruEchipa {
+				width:323px;
+				float:left;
+				padding-top:20px;
+			}
+			
+				.containerDorescAcestPachet ul, .containerContacteazaMembruEchipa ul {
+					margin:0;
+					padding:0;
+					display:inline;
+					background:#000;
+					padding:10px 10px;
+					margin-left:10px;
+				}
+				
+				.containerContacteazaMembruEchipa ul {
+					margin-left:30px;
+				}
+				
+					.containerDorescAcestPachet ul li, .containerContacteazaMembruEchipa ul li {
+						display:inline;
+						margin-right:3px;
+					}
+					
+						.containerDorescAcestPachet ul li a, .containerContacteazaMembruEchipa ul li a {
+							text-decoration:none;
+							color:#d60587;
+							font-weight:bold;
+						}
+						
+						.containerDorescAcestPachet ul li a:hover, .containerContacteazaMembruEchipa ul li a:hover {
+							text-decoration:underline;
+						}
+						
+						.containerDorescAcestPachet ul li img, .containerContacteazaMembruEchipa ul li img {
+							margin-left:5px;
+						}
+		
+		span.pacheteWeb {
+			color:#d60587;
+			font-size:25px;
+			
+		}
+		
+		span.pinkLetters {
+			color:#d60587;
+		}
+		
+		span.pinkLetters a {
+			color:#d60587;
+			text-decoration:none;
+		}
+		
+		span.pinkLetters a:hover {
+			text-decoration:underline;
+		}
+		
+		
+/*Modificari pagina index*/
+
+.wrapperDespreNoiIndex {
+	width:inherit;
+	height:100%;
+	/*margin-top:100px;*/
+	position:relative;
+	top:15px;
+}
+
+
+/*CSS code for portofoliu.html*/
+
+.containerPrezentare1Proiect {
+	width:452px;
+	float:left;
+	padding-top:20px;
+	margin-left:20px;
+}
+
+	.containerInfo1Proiect {
+		width:300px;
+		padding-top:25px;
+		float:left;
+		margin-left:18px !important;
+		margin-left:12px;
+	}
+	
+		.containerInfo1Proiect h3 {
+			margin:0;
+			padding:0;
+			font-size:24px;
+			color:#d60587;
+			padding-bottom:3px;
+		}
+		
+		.containerInfo1Proiect img {
+			margin-top:10px;
+			margin-bottom:15px;
+		}
+		
+		.containerInfo1Proiect p {
+			margin:0;
+			padding:0;
+			color:#fff;
+			padding-bottom:15px;
+			padding-right:15px;
+		}
+		
+			
+			.containerPtMaiMulteDetalii {
+				width:inherit;
+			}
+			
+				.wrapperTextMaiMulteDetalii {
+					width:300px;
+					float:left;
+					margin-left:15px !important;
+					margin-left:10px;
+				}
+				
+					.wrapperTextMaiMulteDetalii p {
+						color:#fff;
+						background:#333333;
+						padding-left:15px;
+					}
+						
+						.wrapperTextMaiMulteDetalii p a {
+							color:#d60587;
+							text-decoration:none;
+							font-weight:bold;
+						}
+						
+						.wrapperTextMaiMulteDetalii p a:hover {
+							text-decoration:underline;
+						}
+						
+			p.descriereCategoriePachet {
+				margin:0;
+				padding:0;
+				color:#d60587;
+				font-size:11px;
+			}
+			
+				p.descriereCategoriePachet a {
+					color:#d60587;
+					text-decoration:none;
+				}
+				
+				p.descriereCategoriePachet a:hover {
+					text-decoration:underline;
+				}
+						
+						
+/*CSS code for contact.html*/
+	
+.containerMainFormularContact {
+		width:inherit;
+		height:100%;
+		margin-top:20px;
+		margin-bottom:-20px;
+	}
+	
+	.wrapperMiddleFormularContact {
+		width:inherit;
+		height:100%;
+		background-color:#0c0c0c;
+		position:relative;
+		filter:alpha(opacity=80); 
+		-moz-opacity: 0.8; 
+		opacity: 0.8;
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+	
+	.containerForm {
+		width:500px;
+		margin-left:auto;
+		margin-right:auto;
+		/*background-color:#d00d77;*/
+		padding-top:25px;
+		padding-bottom:25px;
+		/*border:1px solid #fff;*/
+	}
+	
+	.fieldsFormContact {
+		width:inherit;
+	}
+	
+	input, textarea, select {
+		font-family:inherit;
+		font-size:inherit;
+		font-weight:inherit;
+}
+
+				.fieldsFormContact #campContact {
+					border:none;
+					background-color:#fff;
+					height:16px;
+					padding:7px;
+					width:280px;
+					font-size:15px;
+				}
+				
+				.fieldsFormContact #campMesaj {
+					border:none;
+					background-color:#fff;
+					height:16px;
+					padding:7px;
+					width:280px;
+					height:100px;
+				}
+				
+		.labelTitle {
+			display:block;
+			float:left;
+			margin-right:15px;
+			padding:10px 25px 0 0;
+			text-align:right;
+			width:100px;
+			font-size:15px;
+			color:#fff;
+			
+		}
+
+		.captchaText {
+			text-align:right;
+			font-size:15px;
+			color:#fff;			
+		}
+		
+
+		.btnTrimite {
+			width:inherit;
+			text-align:right;
+		}
+		
+		.btnTrimite #btnSendMessage {
+			margin-right:70px;
+			background-color:#d00d77;
+			border:none;
+			font-size:16px;
+			padding:5px 10px;
+			color:#fff;
+		}
+		
+		.atentieFormular {
+			width:inherit;
+		}
+		
+			.atentieFormular p {
+				margin:0;
+				padding:0;
+				color:#fff;
+				text-align:center;
+				padding-top:30px;
+				padding-bottom:30px;
+			}
+			
+			
+/*Modificari index.html*/
+
+.containerHeaderUltimeleProiecte {
+	width:inherit;
+}
+
+	.containerHeaderUltimeleProiecte h3 {
+		margin:0;
+		padding:0;
+		font-size:40px;
+		color:#e40090;
+		padding-top:30px;
+		padding-left:20px;
+		padding-bottom:30px;
+		float:left;
+	}	
+	
+	.containerHeaderUltimeleProiecte p {
+		margin:0;
+		padding:0;
+		color:#fff;
+		padding-top:32px;
+		padding-left:15px;
+		float:left;
+	}
+	
+	.containerHeaderUltimeleProiecte a {
+		color:#fff;
+		font-weight:bold;
+		text-decoration:none;
+	}
+	
+	.containerHeaderUltimeleProiecte a:hover {
+		text-decoration:underline;
+	}
+	
+
+.closingGap {
+	width:100%;
+	margin-bottom:-100px;
+}
+
+/*.footer {
+	width:971px;
+	margin-left:auto;
+	margin-right:auto;
+	height:100px;
+	color:#fff;
+	margin-top:-500px;
+}*/	
+
+.wrapperMainMenu {
+	width:971px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.wrapperMainAlteServicii {
+	width:inherit;
+	height:auto;
+	position:relative;
+	top:30px;
+}
+	
